@@ -7,3 +7,5 @@ The MIDI IN is connected to RX pin of the Raspberry PI I/O. MIDI THRU port repli
 PCM5102 is configured to run in I2S mode and configuration pins are hardwired.
 
 The Encoder is KY-040 type encoder. A/CLK is connected to GPIO9, B/DAT is connected to GPIO10 and switch is connected to GPIO11.
+
+The 40 pin I/O header is designed to be a female regular input. A passthrough type would be much nicer to lower the position of the card however neither SMT nor THT pass-through connectors fit since the I/O is very close to the edge. It is possible not to populate the female header and directly solder the card to the RPI to lower the height and fit the assembly in to a case.
